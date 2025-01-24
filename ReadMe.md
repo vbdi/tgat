@@ -2,14 +2,13 @@
 
 # Exact Combinatorial Optimization with Temporo-Attentional Graph Neural Networks
 
-​	
+This code provides a PyTorch implementation for **TGAT**, as described in the paper ''Exact Combinatorial Optimization with Temporo-Attentional Graph Neural Networks'', published at ECML2023.
 
-This code provides a PyTorch implementation for **TGAT**, as described in the paper ''Exact Combinatorial Optimization with Temporo-Attentional Graph Neural Networks''.
+Link to paper: https://arxiv.org/abs/2311.13843
 
-Combinatorial optimization finds an optimal solution within a discrete set of variables and constraints. The field has seen a tremendous progress both in research and industry. With the success of deep learning in the past decade, a recent trend in combinatorial optimization has been to improve state-of-the-art combinatorial
-optimization solvers by replacing key heuristic components with machine learning (ML) models. In this paper, we investigate two essential aspects of machine learning algorithms for combinatorial optimization: temporal characteristics and attention. We argue that for the task of variable selection in the branch-and-bound (B\&B) algorithm, incorporating the temporal information as well as the bipartite graph attention improves the solver's performance.
+Combinatorial optimization finds an optimal solution within a discrete set of variables and constraints. The field has seen a tremendous progress both in research and industry. With the success of deep learning in the past decade, a recent trend in combinatorial optimization has been to improve state-of-the-art combinatorial optimization solvers by replacing key heuristic components with machine learning (ML) models. In this paper, we investigate two essential aspects of machine learning algorithms for combinatorial optimization: temporal characteristics and attention. We argue that for the task of variable selection in the branch-and-bound (B\&B) algorithm, incorporating the temporal information as well as the bipartite graph attention improves the solver's performance.
 
-<img src="D:\Research\Submissions\2022_NEURIPS_ML4CO\Figures\system_module.png" style="zoom: 67%;" />
+<img src="https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/tgat/system_module.png" style="zoom: 67%;" />
 
 ## Running  training
 
