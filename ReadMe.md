@@ -6,6 +6,8 @@ This code provides a PyTorch implementation for **TGAT**, as described in the pa
 
 Link to paper: https://arxiv.org/abs/2311.13843
 
+Link to Huawei's AI Gallery Notebook: [https://developer.huaweicloud.com/develop/aigallery/notebook/detail?id=58b799a0-5cfc-4c2e-8b9b-440bb2315264](https://developer.huaweicloud.com/develop/aigallery/notebook/detail?id=047c6cf2-8463-40d7-b92f-7b2ca998e935)
+
 Combinatorial optimization finds an optimal solution within a discrete set of variables and constraints. The field has seen a tremendous progress both in research and industry. With the success of deep learning in the past decade, a recent trend in combinatorial optimization has been to improve state-of-the-art combinatorial optimization solvers by replacing key heuristic components with machine learning (ML) models. In this paper, we investigate two essential aspects of machine learning algorithms for combinatorial optimization: temporal characteristics and attention. We argue that for the task of variable selection in the branch-and-bound (B\&B) algorithm, incorporating the temporal information as well as the bipartite graph attention improves the solver's performance.
 
 <img src="https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/tgat/system_module.png" style="zoom: 67%;" />
